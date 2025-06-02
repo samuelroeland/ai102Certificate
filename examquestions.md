@@ -3,6 +3,7 @@ microsoft questions ai 102
 # Azure AI-102 Exam Questions & Answers Collection
 
 ## Instructions
+
 You can add, review, or request rehearsals for these questions at any time. This file stores your curated AI-102 exam questions and their correct answers. Let me know if you want to add new questions, rehearse (quiz) yourself, or get explanations for any answer.
 
 ---
@@ -10,240 +11,298 @@ You can add, review, or request rehearsals for these questions at any time. This
 ## Additional Exam Questions (51-100)
 
 ### 51.
+
 You have a knowledge base that contains semi-structured data.
 You need to build a bot that will use the knowledge base as part of user conversations.
 Which service should you use?
+
 - **Custom question answering**
 
 ---
 
 ### 52.
+
 You have a website that allows users to upload images.
 You need to ensure that the uploaded images do not contain adult content. The solution must minimize development effort.
 Which service should you use?
+
 - **Azure AI Vision Image Analysis**
 
 ---
 
 ### 53.
+
 You build an app that enables users to upload scans of invoices.
 You need to extract text and key/value pairs from the scanned invoices.
 Which service should you use?
+
 - **Azure AI Document Intelligence**
 
 ---
 
 ### 54.
+
 You are building a mobile app that will enable users to scan street signs and will read out the text on the sign.
 You need to recommend a service to use. The solution must minimize development effort.
 Which service should you recommend?
+
 - **Azure AI Vision**
 
 ---
 
 ### 55.
+
 You are building an app that will extract text from scanned receipts.
 You need to recommend which service to use. The solution must minimize development effort.
 What should you recommend?
+
 - **Azure AI Document Intelligence**
 
 ---
 
 ### 56.
+
 You are building an app that will use an Azure AI Services resource.
 You need to identify the endpoint for the resource.
 From the Azure CLI, which command should you run?
+
 - **az cognitiveservices account show --name myresource --resource-group cognitive-services-resource-group**
 
 ---
 
 ### 57.
+
 You plan to build an app that will use Azure AI Services.
 You need to identify the methods that can be used to authenticate to Azure AI Services.
 Which two methods can you use? Each correct answer presents a complete solution.
+
 - **a subscription key**
 - **Microsoft Entra ID**
 
 ---
 
 ### 58.
+
 You are building an app that will use Azure AI Custom Vision. The app will be deployed to an internet host.
 You enable firewall rules for your Azure AI Services account.
 You need to ensure that the app can access the Azure AI Custom Vision service over the internet.
 What should you do?
+
 - **Grant access to an internet IP range.**
 
 ---
 
 ### 59.
+
 You are developing a containerized optical character recognition (OCR)-capable application by using Azure AI Services containers.
 While developing the solution, you retrieve a status message of “Mismatch”, and the connection to the AI Services resource fails.
 You need to ensure that the solution can connect to the AI Services resource.
 What should you do?
+
 - **Confirm that the API key is for the correct resource type.**
 
 ---
 
 ### 60.
+
 You are building an app named App1 that uses the Image Analysis API.
 You are evaluating analyzing images by using the following request:
 https://*.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=read,description
 Which results will the request return?
+
 - **the visible text in the image and a description of the image content**
 
 ---
 
 ### 61.
+
 You build an app named App1 that uses the Azure AI Face service.
 You need to optimize the app for images that contain blurry faces.
 What should you do?
+
 - **Set the detection model to detection_02.**
 
 ---
 
 ### 62.
+
 You are building an app that will detect the color scheme of uploaded images.
 You are evaluating using the Image Analysis API to detect the dominant background color of an image.
 Which color can the API return as a dominant background color?
+
 - **teal**
 
 ---
 
 ### 63.
+
 You are building an app that will use Azure AI Vision to extract text from scanned images of handwritten text.
 Which Azure AI Vision feature should you use?
+
 - **optical character recognition (OCR)**
 
 ---
 
 ### 64.
+
 You have an app named App1 that extracts invoice data from PDF files by using an S0 instance of Azure AI Document Intelligence. The PDF files are up to 2 MB each and contain up to 10 pages.
 Users report that App1 is unable to process some invoices.
 You need to troubleshoot the issue.
 What is a possible cause of the issue?
+
 - **Some of the files are password protected.**
 
 ---
 
 ### 65.
+
 You are building an app that will be deployed to an edge device and will use Azure AI Custom Vision to analyze images of fruits.
 You need to select a model domain for the app. The solution must support running the app without internet connectivity.
 Which model should you use?
+
 - **Compact domain**
 
 ---
 
 ### 66.
+
 You are building an app that will use Azure AI Vision to analyze and classify images to build an image library of animals.
 You need to configure the classification type for the Azure AI Vision project. The solution must ensure that the images selected only include a single animal.
 Which type of classification should you use?
+
 - **multiclass**
 
 ---
 
 ### 67.
+
 You are using a custom Language content model in an Azure AI Video Indexer solution.
 During testing, you upload a text file that includes the following sentence: “Kubernetes is a new feature in Azure & the cloud.”
 The sentence is discarded.
 You need to ensure that the model retains the sentence.
 What should you do?
+
 - **Remove the “&” character from the text file.**
 
 ---
 
 ### 68.
+
 You are building a video processing app that will use Azure AI Video Indexer to extract insights from videos that contain multi-language content.
 You need to configure the API calls to enable multilingual identification.
 Which value should you set for the sourceLanguage parameter?
+
 - **multi-language detection**
 
 ---
 
 ### 69.
+
 You are building an app that will analyze resumes and remove names and addresses.
 You need to configure the Azure AI Language Personally Identifiable Information (PII) detection feature for the app.
 Which categories should you specify in the request?
+
 - **Person and Address only**
 
 ---
 
 ### 70.
+
 You are building an app that will analyze the sentiment of user feedback by using Azure AI Language.
 You have a test document named Test.docx that contains one positive sentence and multiple neutral sentences.
 You need to validate the app by analyzing Test.docx.
 Which label will the app return for Test.docx?
+
 - **positive**
 
 ---
 
 ### 71.
+
 You are building an app that will flag documents that contain the names of staff members by using the Azure AI Language Personally Identifiable Information (PII) detection feature.
 You need to configure the PII detection feature.
 Which category should you use?
+
 - **Person**
 
 ---
 
 ### 72.
+
 You need to build an app that will summarize text documents into key phrases.
 Which Azure AI Language feature should you recommend?
+
 - **key phrase extraction**
 
 ---
 
 ### 73.
+
 You have an app that sends audio recordings from a call center to the speech-to-text feature of Azure AI Services.
 During testing, you notice that the Word Error Rate (WER) is high and there are a lot of substitution errors.
 You need to improve the model and reduce the WER.
 What should you add to the training data?
+
 - **custom product and people names**
 
 ---
 
 ### 74.
+
 You are building an app that will analyze meeting recordings and identify who is speaking at which moment in time.
 You need to configure a voice profile for the app.
 Which type of voice profile should you use?
+
 - **Speaker identification**
 
 ---
 
 ### 75.
+
 You plan to build an app that will transcribe large quantities of audio files by using the Azure AI Speech service batch transcription feature.
 You need to recommend a storage solution for the audio files. The solution must minimize development effort.
 What should you recommend?
+
 - **Azure Storage**
 
 ---
 
 ### 76.
+
 You are building an app that will recognize the intent and entities of user utterances in real-time.
 You are evaluating the use of intent recognition with the Azure AI Speech and Azure AI Language services or simple pattern matching.
 When should you use pattern matching?
+
 - **You are only interested in matching strictly what the user said.**
 
 ---
 
 ### 77.
+
 You are building a custom translation model.
 You need to use bilingual training documents to teach the model your terminology and style.
 Which rule should you follow?
+
 - **Be liberal.**
 
 ---
 
 ### 78.
+
 You are building a custom translation model.
 You need to evaluate the precision of the text that you translated by using a Bilingual Evaluation Understudy (BLEU) score.
 Which scale is used for the score?
+
 - **between 0 and 100**
 
 ---
 
 ### 79.
+
 You are using Azure AI Translator to translate documents from one language to another.
 You need to extend the capabilities of an application by using the Azure AI Translator service.
 Which three features are available in the Translator service? Each correct answer presents a complete solution.
+
 - **Detect language**
 - **Dictionary lookup**
 - **Transliterate**
@@ -251,58 +310,72 @@ Which three features are available in the Translator service? Each correct answe
 ---
 
 ### 80.
+
 You are building an Azure AI Translator custom model.
 You need to ensure that the translation accuracy for the model has a Bilingual Evaluation Understudy (BLEU) score that indicates high quality.
 What is the minimum score range required?
+
 - **40 to 59**
 
 ---
 
 ### 81.
+
 You are building a model that uses Conversational Language Understanding (CLU).
 You need to train the model.
 Which training methods can you use?
+
 - **standard and advanced only**
 
 ---
 
 ### 82.
+
 You are creating an orchestration workflow for Language Understanding.
 You need to configure workflows for multiple languages. The solution must minimize administrative effort.
 What should you create for each language?
+
 - **separate workflow projects**
 
 ---
 
 ### 83.
+
 You are building a model that uses Conversational Language Understanding (CLU).
 You need to measure how accurate the model is by using the ratio between the correctly identified positives (true positives) and all identified positives.
 Which metric should you use?
+
 - **precision**
 
 ---
 
 ### 84.
+
 You are building an orchestration workflow to orchestrate and connect multiple Language Understanding models and question answering projects for use in a bot.
 Which two operations can you perform in an orchestration workflow based on Azure AI Language service? Each correct answer presents a complete solution.
+
 - **Connect to Language Understanding applications that are owned by the same resource as the orchestration workflow.**
 - **Connect to question answering projects that are in the same Azure AI Language service resource as your orchestration workflow.**
 
 ---
 
 ### 85.
+
 You are building a multilingual conversational app by using Conversational Language Understanding (CLU), part of Azure AI Language service.
 You create a CLU model that will serve multiple languages.
 You need to optimize the performance of the model. The solution must minimize development effort.
 What should you do?
+
 - **Add utterances for languages that are performing poorly in the model.**
 
 ---
 
 ### 86.
+
 You plan to build a chatbot that will help users answer FAQs.
 You need to identify which scenarios are suitable for use with the Azure AI Language question answering service.
 Which three scenarios should you identify? Each correct answer presents a complete solution.
+
 - **when you have a bot conversation that includes static information**
 - **when you have static information in a knowledge base of answers**
 - **when you need to provide the same answer to a request, question, or command**
@@ -310,66 +383,82 @@ Which three scenarios should you identify? Each correct answer presents a comple
 ---
 
 ### 87.
+
 You are building a solution that uses Azure AI Search.
 You need to execute the initial run of the indexer.
 Which stages will be included during the initial run?
+
 - **document cracking, field mapping, skillset execution, and output field mapping**
 
 ---
 
 ### 88.
+
 You are building a solution that uses Azure AI Search.
 You need to save normalized binary files as projections.
 Which type of projection should you use?
+
 - **files**
 
 ---
 
 ### 89.
+
 You are building a knowledge mining solution by using Azure AI Search.
 You need to ensure that the solution supports wildcard queries in search requests.
 What should you include in the REST API request?
+
 - **“queryType”: “full”**
 
 ---
 
 ### 90.
+
 You are building an app will use Azure AI Search.
 You need to index a collection of documents.
 What is the first stage of the indexing process?
+
 - **document cracking**
 
 ---
 
 ### 91.
+
 You are building a solution that uses Azure AI Search.
 You need to create a skillset definition.
 What are minimum sections you should include in the definition?
+
 - **name, description, and skills**
 
 ---
 
 ### 92.
+
 You are building a knowledge mining solution that will use AI enrichment and Azure AI Search.
 You need to create a data structure that will be used to store the enriched and indexed output for downstream apps.
 What should you create?
+
 - **a knowledge store**
 
 ---
 
 ### 93.
+
 You are creating an application that references the Azure OpenAI REST API for a DALL-E model.
 You plan to use thumbnails of the images that DALL-E generates and display them in a table on a webpage.
 You need to find the image URLs in the JSON response.
 Which element should you review?
+
 - **the result element**
 
 ---
 
 ### 94.
+
 You are building a web app that will generate images based on user prompts. The app will use the DALL-E 3 Azure OpenAI model.
 You need to ensure that HTTP requests against the Azure OpenAI API successfully generate images.
 Which three HTTP header properties should you include? Each correct answer presents part of the solution.
+
 - **the API version used in this operation**
 - **the name of the Azure OpenAI service resource**
 - **the name of the DALL-E 3 model deployment**
@@ -377,26 +466,32 @@ Which three HTTP header properties should you include? Each correct answer prese
 ---
 
 ### 95.
+
 You are building a web app that will generate images based on user prompts. The app will use the DALL-E 3 Azure OpenAI model.
 You need to ensure that HTTP requests against the Azure OpenAI API successfully generate images.
 Which HTTP body property should you include?
+
 - **the prompt**
 
 ---
 
 ### 96.
+
 You are deploying an Azure OpenAI service.
 You plan to use your own data in the models you will deploy.
 You need to ensure that the model can index your data sources.
 Which additional Azure service should you deploy?
+
 - **Azure AI Search**
 
 ---
 
 ### 97.
+
 You are building a GPT-based chat application that will answer questions about your company.
 You plan to use the Using your data feature in Azure OpenAI to ground the model with company data.
 Which four types of files can you use to ground the model? Each correct answer presents a complete solution.
+
 - **HTML**
 - **MD**
 - **PDF**
@@ -405,19 +500,23 @@ Which four types of files can you use to ground the model? Each correct answer p
 ---
 
 ### 98.
+
 You are building a GPT-based chat application that will answer questions about your company.
 You plan to use the Using your data feature in Azure OpenAI to ground the model with your company data.
 While testing, you discover that some responses are not accurate enough.
 You need to configure the Azure OpenAI resource to filter out less-relevant documents for responses.
 Which parameter should you configure?
+
 - **Strictness**
 
 ---
 
 ### 99.
+
 You are building a GPT-based chat application that will answer questions about your company.
 You plan to test the application by using strategies defined by Microsoft best practices.
 Which three prompt engineering strategies should you consider while testing the application? Each correct answer presents a complete solution.
+
 - **Be Descriptive**
 - **Be Specific**
 - **Order Matters**
@@ -425,11 +524,14 @@ Which three prompt engineering strategies should you consider while testing the 
 ---
 
 ### 100.
+
 You are creating an application that will use Azure OpenAI REST API services. The application uses a REST call to a DALL-E model to generate images. The three parameters in the REST call are prompt, n, and size.
 What does the size parameter indicate?
+
 - **the size of the images in pixel resolution**
 
 ---
+
 # Microsoft AI-102 Practice Questions
 
 Below is a comprehensive list of your practice questions, each with scenario, question, choices, and correct answer.
@@ -441,6 +543,7 @@ Below is a comprehensive list of your practice questions, each with scenario, qu
 **Scenario:**
 You are building an Azure AI Search custom skill.
 You have the following custom skill schema definition:
+
 ```json
 {
   "@odata.type": "#Microsoft.Skills.Custom.WebApiSkill",
@@ -460,11 +563,12 @@ You have the following custom skill schema definition:
   ]
 }
 ```
+
 **Question:**
 The definition calls a web API as part of the enrichment process.
 A) Yes
 B) No
-*Correct Answer: Yes*
+_Correct Answer: Yes_
 
 ---
 
@@ -477,7 +581,7 @@ B) No
 The enrichment step is called only for the first organization under /document/organizations.
 A) Yes
 B) No
-*Correct Answer: No*
+_Correct Answer: No_
 
 ---
 
@@ -487,6 +591,7 @@ B) No
 You have an Azure subscription that contains an Azure AI Service resource named CSAaccount1 and a virtual network named VNet1. CSAaccount1 is connected to VNet1.
 You need to ensure that only specific resources can access CSAaccount1.
 The solution must meet the following requirements:
+
 - Prevent external access to CSAaccount1.
 - Minimize administrative effort.
 
@@ -499,7 +604,8 @@ Which two actions should you perform?
 - In VNet1, create a virtual subnet.
 - In CSAaccount1, modify the virtual network settings.
 
-*Correct Answers:*
+_Correct Answers:_
+
 - In VNet1, enable a service endpoint for CSAaccount1.
 - In CSAaccount1, modify the virtual network settings.
 
@@ -520,7 +626,7 @@ Which type of custom entity should you use?
 - regular expression
 - list
 
-*Correct Answer: Pattern.any*
+_Correct Answer: Pattern.any_
 
 ---
 
@@ -536,7 +642,7 @@ Solution: From Content Safety Studio, you use the Monitor online activity featur
 Does this meet the requirement?
 A) Yes
 B) No
-*Correct Answer: No*
+_Correct Answer: No_
 
 ---
 
@@ -550,7 +656,7 @@ Solution: From Content Safety Studio, you use the Safety metaprompt feature to r
 Does this meet the requirement?
 A) Yes
 B) No
-*Correct Answer: No*
+_Correct Answer: No_
 
 ---
 
@@ -564,7 +670,7 @@ Solution: From Content Safety Studio, you use the Protected material detection f
 Does this meet the requirement?
 A) Yes
 B) No
-*Correct Answer: No*
+_Correct Answer: No_
 
 ---
 
@@ -579,6 +685,7 @@ You need to deploy the container image to a host computer.
 Which three actions should you perform in sequence?
 
 ACTIONS
+
 1. From the host computer, build the container and specify the output directory.
 2. From the Language Understanding portal, retrain the model.
 3. From the host computer, run the container and specify the input directory.
@@ -586,11 +693,12 @@ ACTIONS
 5. From the Language Understanding portal, export the solution as a package file.
 
 Options:
+
 - 5-4-3 (Correct)
 - 5-4-1
 - 5-3-2
 
-*Correct Sequence: 5-4-3*
+_Correct Sequence: 5-4-3_
 
 ---
 
@@ -604,6 +712,7 @@ You need to prevent unauthorized access to the search endpoint and ensure users 
 Which three actions should you perform in sequence?
 
 ACTIONS
+
 1. Delete the compromised key
 2. Change the app to use the secondary admin key
 3. Add a new query key
@@ -612,11 +721,12 @@ ACTIONS
 6. Regenerate the primary admin key
 
 Options:
+
 - 3-5-1 (Correct)
 - 2-5-1
 - 5-1-3
 
-*Correct Sequence: 3-5-1*
+_Correct Sequence: 3-5-1_
 
 ---
 
@@ -630,6 +740,7 @@ You have blob containers for German files and for French files.
 Which three actions should you perform in sequence to complete the solution?
 
 ACTIONS
+
 1. Define a document translation specification that has a French target.
 2. Perform an asynchronous translation by using the list of files to be translated.
 3. Upload a glossary file to the container for German files.
@@ -638,11 +749,12 @@ ACTIONS
 6. Perform an asynchronous translation by using the document translation specification.
 
 Options:
+
 - 1-3-6 (Correct)
 - 1-4-6
 - 1-6-3
 
-*Correct Sequence: 1-3-6*
+_Correct Sequence: 1-3-6_
 
 ---
 
@@ -660,7 +772,7 @@ Which Azure Command-Line Interface (CLI) command should you run?
 - az cognitiveservices account show (Correct)
 - az account list
 
-*Correct Answer: az cognitiveservices account show*
+_Correct Answer: az cognitiveservices account show_
 
 ---
 
@@ -669,6 +781,7 @@ Which Azure Command-Line Interface (CLI) command should you run?
 **Scenario:**
 You are developing a text processing solution.
 You have the following function:
+
 ```csharp
 static void GetKeyWords(TextAnalyticsClient textAnalyticsClient, string text)
 {
@@ -680,6 +793,7 @@ static void GetKeyWords(TextAnalyticsClient textAnalyticsClient, string text)
     }
 }
 ```
+
 You call the function and use the following string as the second argument:
 Our tour of London included a visit to Buckingham Palace
 
@@ -691,7 +805,7 @@ What will the function return?
 - London and Tour only
 - Our tour of London included visit to Buckingham Palace
 
-*Correct Answer: London and Buckingham Palace only*
+_Correct Answer: London and Buckingham Palace only_
 
 ---
 
@@ -707,7 +821,7 @@ Where should you upload the images?
 - Azure Files share
 - Azure Storage account (Correct)
 
-*Correct Answer: Azure Storage account*
+_Correct Answer: Azure Storage account_
 
 ---
 
@@ -723,7 +837,7 @@ Which type of model should you use?
 - Custom template
 - Identity document (ID)
 
-*Correct Answer: Custom neural*
+_Correct Answer: Custom neural_
 
 ---
 
@@ -737,7 +851,7 @@ Update an app to interpret QR codes (minimize admin effort). What should you do 
 - Deploy a custom model
 - Implement the contract model
 
-*Correct Answer: Implement the read model*
+_Correct Answer: Implement the read model_
 
 ---
 
@@ -751,7 +865,7 @@ Assign a role to allow a user to upload datasets and fine-tune models on OpenAI1
 - Cognitive Services OpenAI User
 - Contributor
 
-*Correct Answer: Cognitive Services OpenAI Contributor*
+_Correct Answer: Cognitive Services OpenAI Contributor_
 
 ---
 
@@ -769,7 +883,7 @@ Which two types of resources should you create?
 - Azure AI Search (Correct)
 - Azure SQL
 
-*Correct Answers: Azure Blob Storage, Azure AI Search*
+_Correct Answers: Azure Blob Storage, Azure AI Search_
 
 ---
 
@@ -785,7 +899,7 @@ What should you choose for Dropdown 1?
 - RecognizePiiEntities (Correct)
 - SingleLabelClassify
 
-*Correct Answer: RecognizePiiEntities*
+_Correct Answer: RecognizePiiEntities_
 
 ---
 
@@ -801,7 +915,7 @@ What should you choose for Dropdown 2?
 - Statistics
 - Warnings
 
-*Correct Answer: RedactedText*
+_Correct Answer: RedactedText_
 
 ---
 
@@ -818,7 +932,7 @@ Which SDK package should you install?
 - Azure.AI.Translation.Speech
 - Azure.AI.Translation.Document
 
-*Correct Answer: Azure.AI.Translation.Text*
+_Correct Answer: Azure.AI.Translation.Text_
 
 ---
 
@@ -828,6 +942,7 @@ Which SDK package should you install?
 Deploying a Custom Vision object detection model for mobile (Android), using Retail domain.
 
 ACTIONS:
+
 1. Change the model domain.
 2. Retrain the model.
 3. Export the model.
@@ -842,7 +957,7 @@ Which three actions should you perform in sequence?
 - 2-3-4
 - 1-2-4
 
-*Correct Sequence: 1-2-3*
+_Correct Sequence: 1-2-3_
 
 ---
 
@@ -857,7 +972,7 @@ Will the function fail if there is an existing file named File.wav?
 - Yes
 - No (Correct)
 
-*Correct Answer: No*
+_Correct Answer: No_
 
 ---
 
@@ -872,7 +987,7 @@ Will the function sample File.wav to use as a synthesized voice?
 - Yes
 - No (Correct)
 
-*Correct Answer: No*
+_Correct Answer: No_
 
 ---
 
@@ -887,7 +1002,7 @@ Will the function generate an audio file based on the input text?
 - Yes (Correct)
 - No
 
-*Correct Answer: Yes*
+_Correct Answer: Yes_
 
 ---
 
@@ -904,9 +1019,7 @@ What should you do?
 - Modify the system prompt
 - Modify the original documents and retrain the model
 
-*Correct Answer: Add a new question and response pair*
-
-
+_Correct Answer: Add a new question and response pair_
 
 # Recent AI-102 Practice Questions
 
@@ -975,9 +1088,6 @@ Will the code perform face recognition?
 - **No** (Correct)
 
 ---
-
-
-
 
 # AI-102 Practice Exam Questions and Answers
 
@@ -1058,9 +1168,10 @@ Below is a summary list of all your stored AI-102 practice questions (images 1�
 ## 11. Two ways to improve chatbot quality with minimal dev effort
 
 **Answer:**
+
 - Provide grounding content.
 - Add sample request/response pairs.
-**Explanation:** Grounding content and sample pairs improve quality without retraining or fine-tuning.
+  **Explanation:** Grounding content and sample pairs improve quality without retraining or fine-tuning.
 
 ---
 
@@ -1193,10 +1304,11 @@ Below is a summary list of all your stored AI-102 practice questions (images 1�
 ## 30. Enable speech for chatbot: three actions?
 
 **Answer:**
+
 - Enable WebSockets for the chatbot app.
 - Create a Speech service.
 - Register a Direct Line Speech channel.
-**Explanation:** These steps enable speech input/output for the chatbot.
+  **Explanation:** These steps enable speech input/output for the chatbot.
 
 ---
 
@@ -1217,10 +1329,11 @@ Below is a summary list of all your stored AI-102 practice questions (images 1�
 ## 33. Cognitive Search autocomplete: three actions?
 
 **Answer:**
+
 - Make API queries to the autocomplete endpoint and include suggesterName in the body.
 - Add a suggester that has the three product name fields as source fields.
 - Set the analyzer property for the three product name variants.
-**Explanation:** These enable efficient autocomplete on product names.
+  **Explanation:** These enable efficient autocomplete on product names.
 
 ---
 
@@ -1273,23 +1386,24 @@ Below is a summary list of all your stored AI-102 practice questions (images 1�
 
 ---
 
-
-
 # AI-102 Exam Questions and Answers
 
 ---
 
 ## Question 1 ![image1](image1)
+
 **Scenario:**
 You have an Azure subscription that contains an Azure OpenAI resource named AI1 and a user named User1.
 You need to ensure that User1 can perform the following actions in Azure AI Studio:
+
 - Identify resource endpoints.
 - View models that are available for deployment.
 - Generate text and images by using deployed models.
-The solution must follow the principle of least privilege.
-**Question:** Which role should you assign to User1?
+  The solution must follow the principle of least privilege.
+  **Question:** Which role should you assign to User1?
 
 **Correct Answer:**
+
 - Cognitive Services OpenAI User
 
 **Explanation:**
@@ -1298,12 +1412,14 @@ This role grants users the minimum permissions needed to view and interact with 
 ---
 
 ## Question 2 ![image2](image2)
+
 **Scenario:**
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
 You need to call CS1 to identify whether a user request contains hateful language.
 **Question:** What should you choose for Dropdown 1 in the API endpoint?
 
 **Correct Answer:**
+
 - contentsafety/
 
 **Explanation:**
@@ -1312,12 +1428,14 @@ You should use the contentsafety/ endpoint to access content safety features for
 ---
 
 ## Question 3 ![image3](image3)
+
 **Scenario:**
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1.
 You need to call CS1 to identify whether a user request contains hateful language.
 **Question:** What should you choose for Dropdown 2 in the API endpoint?
 
 **Correct Answer:**
+
 - text:analyze
 
 **Explanation:**
@@ -1326,11 +1444,13 @@ The text:analyze API operation is used to analyze the text for content safety.
 ---
 
 ## Question 4 ![image4](image4)
+
 **Scenario:**
 You are building an app that will provide users with definitions of common AI terms using Python and OpenAI API.
 **Question:** Will the response contain an explanation of large language models (LLMs) that has a high degree of certainty?
 
 **Correct Answer:**
+
 - No
 
 **Explanation:**
@@ -1339,11 +1459,13 @@ The response is not guaranteed to have a high degree of certainty, as LLMs can g
 ---
 
 ## Question 5 ![image5](image5)
+
 **Scenario:**
 You are building an app that will provide users with definitions of common AI terms using Python and OpenAI API.
 **Question:** Changing "What is an LLM?" to "What is an LLM in the context of AI models?" will produce the intended response.
 
 **Correct Answer:**
+
 - Yes
 
 **Explanation:**
@@ -1352,11 +1474,13 @@ Clarifying the prompt improves the chance for a relevant and accurate response.
 ---
 
 ## Question 6 ![image6](image6)
+
 **Scenario:**
 You are building an app that will provide users with definitions of common AI terms using Python and OpenAI API.
 **Question:** Changing "You are a helpful assistant." to "You must answer only within the context of AI language models." will produce the intended response.
 
 **Correct Answer:**
+
 - Yes
 
 **Explanation:**
@@ -1365,12 +1489,14 @@ Refining the system prompt focuses the assistant's responses within the specifie
 ---
 
 ## Question 7 ![image7](image7)
+
 **Scenario:**
 You have an Azure subscription that contains an Azure AI Document Intelligence resource named DI1 using Standard S0 tier.
 You have the files: File1.pdf (800MB), File2.jpg (1KB), File3.tiff (5MB).
 **Question:** Which files can you analyze by using DI1?
 
 **Correct Answer:**
+
 - File3.tiff only
 
 **Explanation:**
@@ -1379,11 +1505,13 @@ File3.tiff is the only file supported by the service and within supported size a
 ---
 
 ## Question 8 ![image8](image8)
+
 **Scenario:**
 You have an Azure subscription that contains an Azure AI Content Safety resource named CS1. You plan to build an app that will analyze user-generated documents and identify offensive terms that are specific to the local language dialect.
 **Question:** You need to create a dictionary that will contain the offensive terms. The solution must minimize development effort. What should you use?
 
 **Correct Answer:**
+
 - a blocklist
 
 **Explanation:**
@@ -1392,11 +1520,13 @@ A blocklist allows you to define custom lists of offensive terms, minimizing dev
 ---
 
 ## Question 9 ![image9](image9)
+
 **Scenario:**
 You have an Azure subscription that contains an Azure AI Search resource named AS1. You implement a custom skill in AS1 that performs language and sentiment analysis of documents.
 **Question:** In which order will AS1 index the documents?
 
 **Correct Answer:**
+
 - 3-4-2-1-5 (document cracking, field mappings, skillset execution, output field mappings, push to index)
 
 **Explanation:**
@@ -1405,11 +1535,13 @@ This is the correct order for document processing in Azure AI Search.
 ---
 
 ## Question 10 ![image10](image10)
+
 **Scenario:**
 You are building a chatbot that will use an Azure OpenAI model.
 **Question:** Which three actions should you perform in sequence to deploy the model?
 
 **Correct Answer:**
+
 - 6-3-5 (Apply for access to Azure OpenAI, Provision an Azure OpenAI resource, Deploy the GPT model)
 
 **Explanation:**
@@ -1418,11 +1550,13 @@ You must first get access, provision the resource, then deploy the model.
 ---
 
 ## Question 11 ![image11](image11)
+
 **Scenario:**
 You plan to build an app that will use the Azure OpenAI DALL-E model.
 **Question:** What should you use to deploy the model?
 
 **Correct Answer:**
+
 - Azure AI Studio and Azure Command-Line Interface (CLI)
 
 **Explanation:**
@@ -1431,12 +1565,14 @@ These tools are required to provision and deploy DALL-E within Azure OpenAI.
 ---
 
 ## Question 12 ![image12](image12)
+
 **Scenario:**
 You are building an app that will share user images.
 You need to configure the app to categorize the image as either a photograph or a drawing, and generate a caption for the image.
 **Question:** Which two services in Azure AI Vision should you include?
 
 **Correct Answer:**
+
 - image descriptions in Azure AI Vision
 - image type detection in Azure AI Vision
 
@@ -1446,12 +1582,14 @@ These services minimize development effort and provide the required capabilities
 ---
 
 ## Question 13 ![image13](image13)
+
 **Scenario:**
 You are building an app that will analyze text by using Azure AI Content Safety.
 You need to identify text that contains hateful content.
 **Question:** What should you choose for Dropdown 1 in the code?
 
 **Correct Answer:**
+
 - CategoriesAnalysis
 
 **Explanation:**
@@ -1460,12 +1598,14 @@ This analyzes text for categories such as hate, violence, etc.
 ---
 
 ## Question 14 ![image14](image14)
+
 **Scenario:**
 You are building an app that will analyze text by using Azure AI Content Safety.
 You need to identify text that contains hateful content.
 **Question:** What should you choose for Dropdown 2 in the code?
 
 **Correct Answer:**
+
 - Severity ?? 0);
 
 **Explanation:**
@@ -1474,11 +1614,13 @@ This extracts the severity of hateful content from the analysis response.
 ---
 
 ## Question 15 ![image15](image15)
+
 **Scenario:**
 You have the files: File1.pdf, File2.jpg, File3.docx, File4.webp, File5.png.
 **Question:** Which files can you analyze by using Azure AI Content Understanding?
 
 **Correct Answer:**
+
 - File1.pdf, File2.jpg, and File5.png only
 
 **Explanation:**
@@ -1487,11 +1629,13 @@ Azure AI Content Understanding supports PDF, JPG, and PNG files.
 ---
 
 ## Question 16 ![image16](image16)
+
 **Scenario:**
 You have a blog that allows users to append feedback comments. Some comments contain harmful content.
 **Question:** Which two actions should you perform to detect harmful content with minimal development effort?
 
 **Correct Answer:**
+
 - From the Azure portal, create an Azure AI Content Safety resource.
 - Sign in to Content Safety Studio and select Moderate text content.
 
@@ -1501,12 +1645,14 @@ These steps will allow you to quickly prototype content moderation.
 ---
 
 ## Question 17 ![image17](image17)
+
 **Scenario:**
 You have an app that uses an Azure AI Content Safety blocklist.
 You need to remove an entry from the blocklist, minimizing impact on existing entries.
 **Question:** What should you choose for Dropdown 1?
 
 **Correct Answer:**
+
 - RemoveBlocklistItems
 
 **Explanation:**
@@ -1515,20 +1661,20 @@ This method removes specific entries without impacting the rest of the blocklist
 ---
 
 ## Question 18 ![image18](image18)
+
 **Scenario:**
 You have an app that uses an Azure AI Content Safety blocklist.
 You need to remove an entry from the blocklist, minimizing impact on existing entries.
 **Question:** What should you choose for Dropdown 2?
 
 **Correct Answer:**
+
 - RemoveTextBlocklistItemsOptions
 
 **Explanation:**
 This class specifies options for removing blocklist items by ID.
 
 ---
-
-
 
 # AI-102 Practice Questions and Answers
 
@@ -1547,6 +1693,7 @@ You need to ensure that the chatbot responds correctly to both questions.
 Does this meet the goal?
 
 **Answer Options:**
+
 - Yes (Correct)
 - No
 
@@ -1563,6 +1710,7 @@ You need to ensure that the app can make requests to the Language service endpoi
 Which three actions should you perform in sequence?
 
 **ACTIONS:**
+
 1. Run the container and specify an App ID and Client Secret.
 2. Provision an on-premises Kubernetes cluster that is isolated from the internet.
 3. Pull an image from the Microsoft Container Registry (MCR).
@@ -1572,6 +1720,7 @@ Which three actions should you perform in sequence?
 7. Provision an Azure Kubernetes Service (AKS) resource.
 
 **Answer Options:**
+
 - 3-2-1
 - 1-3-2
 - 2-1-3
@@ -1580,6 +1729,7 @@ Which three actions should you perform in sequence?
 
 **Explanation:**
 2-3-4 is the CORRECT sequence of actions:
+
 1. Provision an on-premises Kubernetes cluster that is isolated from the internet.
 2. Pull an image from the Microsoft Container Registry (MCR).
 3. Run the container and specify an API key and the Endpoint URL of the Cognitive Services resource.
@@ -1594,6 +1744,7 @@ You need to improve the accuracy of the service.
 Which five actions should you perform in sequence?
 
 **ACTIONS:**
+
 1. Deploy the model.
 2. Create a Custom Speech project.
 3. Upload training datasets.
@@ -1603,12 +1754,14 @@ Which five actions should you perform in sequence?
 7. Create a Conversational Language Understanding model.
 
 **Answer Options:**
+
 - 2-3-4-6-1 (Correct)
 - 2-4-6-3-1
 - 3-4-2-6-1
 
 **Explanation:**
 2-4-3-6-1 is the CORRECT sequence of actions:
+
 1. Create a Custom Speech project.
 2. Create a speech-to-text model.
 3. Upload training datasets.
@@ -1625,6 +1778,7 @@ You need to run model1 on Host1.
 Which three actions should you perform in sequence?
 
 **ACTIONS:**
+
 1. Retrain the model.
 2. Request approval to run the container.
 3. Export model1 to Host1.
@@ -1632,6 +1786,7 @@ Which three actions should you perform in sequence?
 5. Configure disk logging.
 
 **Answer Options:**
+
 - 2-4-2
 - 3-2-4
 - 2-3-4 (Correct)
@@ -1639,13 +1794,12 @@ Which three actions should you perform in sequence?
 
 **Explanation:**
 2-3-4 is the CORRECT sequence of actions:
+
 1. Request approval to run the container.
 2. Export model1 to Host1.
 3. Run the container.
 
 ---
-
-
 
 # AI-102 Exam Q&A Collection (with Multiple Choice Options)
 
@@ -1659,6 +1813,7 @@ This file contains a collection of AI-102 exam questions with all answer options
 You want to find information in Microsoft Word documents that are stored in an Azure Storage blob container. What should you do to ensure Azure AI Search can access the files?
 
 **Options:**
+
 - Add a JSON file that defines an Azure AI Search index to the blob container
 - Enable anonymous access for the blob container
 - **In an Azure AI Services resource, add a data source that references the container where the files are stored** (Correct)
@@ -1671,6 +1826,7 @@ You want to find information in Microsoft Word documents that are stored in an A
 You're creating an index that includes a field named modified_date. You want to ensure that the modified_date field can be included in search results. Which attribute must you apply to the modified_date field in the index definition?
 
 **Options:**
+
 - searchable
 - filterable
 - **retrievable** (Correct)
@@ -1683,6 +1839,7 @@ You're creating an index that includes a field named modified_date. You want to 
 You created a data source and an index. What must you create to map the data values in the data source to the fields in the index?
 
 **Options:**
+
 - A synonym map
 - **An indexer** (Correct)
 - A suggester
@@ -1695,6 +1852,7 @@ You created a data source and an index. What must you create to map the data val
 You want to create a search solution that uses a built-in AI skill to determine the language in which each indexed document is written, and enrich the index with a field indicating the language. Which kind of Azure AI Search object must you create?
 
 **Options:**
+
 - Synonym map
 - **Skillset** (Correct)
 - Scoring Profile
@@ -1707,6 +1865,7 @@ You want to create a search solution that uses a built-in AI skill to determine 
 You want your search solution to show results in descending order of the file_size field value. What is the simplest way to accomplish this goal?
 
 **Options:**
+
 - Create a scoring profile that boosts results based on the file_size field
 - Make the file_size field facetable, and include a facet parameter that specifies the file_size field in queries
 - **Make the file_size field sortable, and include an orderby parameter that specifies the file_size field in queries** (Correct)
@@ -1719,6 +1878,7 @@ You want your search solution to show results in descending order of the file_si
 You created a search solution. Users want to be able to enter a partial search expression and have the user interface automatically complete the input. What should you add to the index?
 
 **Options:**
+
 - **A suggester** (Correct)
 - A synonym map
 - A scoring profile
@@ -1734,6 +1894,7 @@ You need to integrate user input into the model.
 Which four actions should you perform in sequence?
 
 **Options:**
+
 1. Add a task to the Azure resource
 2. Approve and reject suggestions
 3. Publish the knowledge base
@@ -1756,10 +1917,11 @@ You need to create the URI for the call to the Translator API.
 Which three additional query parameters should you include?
 
 **Options:**
+
 - textType=html
 - to=el
 - toScript=Latn
-(**All 3 above are correct**)
+  (**All 3 above are correct**)
 
 ---
 
@@ -1769,6 +1931,7 @@ Which three additional query parameters should you include?
 You need to upload speech samples to a Speech Studio project for use in training. How should you upload the samples?
 
 **Options:**
+
 - Upload a .zip file that contains a collection of audio files in the .mp3 format and a corresponding text transcript file.
 - Upload individual .wav files, one by one.
 - **Upload a .zip file that contains a collection of audio files in the .wav format and a corresponding text transcript file.** (Correct)
@@ -1780,6 +1943,7 @@ You need to upload speech samples to a Speech Studio project for use in training
 
 **Question:**
 You have the following data sources:
+
 - Finance: On-premises Microsoft SQL Server database
 - Sales: Azure Cosmos DB using the Core (SQL) API
 - Logs: Azure Table storage
@@ -1788,6 +1952,7 @@ You have the following data sources:
 You need to ensure that you can search all the data by using the Azure AI Search REST API. What should you do?
 
 **Options:**
+
 - Mirror Finance to an Azure SQL database **(Correct)**
 - Mirror Finance to Azure Table storage
 - Use Azure Data Factory to create Linked Services for each source
@@ -1803,6 +1968,7 @@ You need to extract top-level information from the receipts, such as the vendor 
 Which Azure service should you use?
 
 **Options:**
+
 - Custom Vision
 - Personalizer
 - **Azure AI Document Intelligence** (Correct)
@@ -1815,12 +1981,13 @@ Which Azure service should you use?
 **Question:**
 You are building a Language Understanding model for purchasing tickets.
 You have the following utterance for an intent named PurchaseAndSendTickets:
-Purchase [2 audit business] tickets to [Paris] [next Monday] and send tickets to [email@domain.com]
+Purchase [2 audit business] tickets to [Paris][next monday] and send tickets to [email@domain.com]
 You need to select the entity types.
 The solution must use built-in entity types to minimize training data whenever possible.
 Which entity type should you use for the label "Paris"?
 
 **Options:**
+
 - Email
 - List
 - Regex
@@ -1834,12 +2001,13 @@ Which entity type should you use for the label "Paris"?
 **Question:**
 You are building a Language Understanding model for purchasing tickets.
 You have the following utterance for an intent named PurchaseAndSendTickets:
-Purchase [2 audit business] tickets to [Paris] [next Monday] and send tickets to [email@domain.com]
+Purchase [2 audit business] tickets to [Paris][next monday] and send tickets to [email@domain.com]
 You need to select the entity types.
 The solution must use built-in entity types to minimize training data whenever possible.
 Which entity type should you use for the label "email@domain.com"?
 
 **Options:**
+
 - **Email** (Correct)
 - List
 - Regex
@@ -1853,12 +2021,13 @@ Which entity type should you use for the label "email@domain.com"?
 **Question:**
 You are building a Language Understanding model for purchasing tickets.
 You have the following utterance for an intent named PurchaseAndSendTickets:
-Purchase [2 audit business] tickets to [Paris] [next Monday] and send tickets to [email@domain.com]
+Purchase [2 audit business] tickets to [Paris][next monday] and send tickets to [email@domain.com]
 You need to select the entity types.
 The solution must use built-in entity types to minimize training data whenever possible.
 Which entity type should you use for the label "2 audit business"?
 
 **Options:**
+
 - Email
 - List
 - Regex
@@ -1877,6 +2046,7 @@ You need to move obj1 to acvprod.
 Which three actions should you perform in sequence?
 
 **Options:**
+
 - 2-3-1
 - 2-5-1
 - 2-1-4
@@ -1891,9 +2061,10 @@ You are building a bot that will use Language Understanding.
 You have a LUDown file that contains the following content with several sections, including `## SelectItem`.
 Based on the information presented, select the answer choice that completes the following statement correctly:
 
-"SelectItem is ______________."
+"SelectItem is ******\_\_******."
 
 **Options:**
+
 - a domain
 - an entity
 - **an intent** (Correct)
@@ -1908,9 +2079,10 @@ You are building a bot that will use Language Understanding.
 You have a LUDown file that contains the following content with several sections, including `- choose {@DirectionalReference=top right}`.
 Based on the information presented, select the answer choice that completes the following statement correctly:
 
-"Choose {@DirectionalReference=top right} is ______________."
+"Choose {@DirectionalReference=top right} is ******\_\_******."
 
 **Options:**
+
 - a domain
 - an entity
 - an intent
@@ -1930,6 +2102,7 @@ You need to complete the provided code.
 What should you choose for Placeholder 1?
 
 **Options:**
+
 - x1xx1f1x1-x1f1-xxxx-xxxx-x1f11xxx1fx1
 - **111a1f1a1fa11aaa1fa1a1a1a1f1a1aa** (Correct)
 - 1y1y1yyy-1yy1y-yy1y1-yy1y1f1111y1
@@ -1945,6 +2118,7 @@ You need to query OpenAI and retrieve embeddings for text input.
 You need to complete the code: What should you choose for Placeholder 2?
 
 **Options:**
+
 - **embeddings1** (Correct)
 - OpenAI1
 - text-embedding-ada-002
@@ -1956,12 +2130,14 @@ You need to complete the code: What should you choose for Placeholder 2?
 **Question:**
 You are building an app that will use Azure AI to monitor workspaces for safety regulation compliance.
 Requirements:
+
 - Generates alerts when employees enter high-risk areas
 - Monitors video feeds in real time
 - Minimizes development effort
-What should you recommend?
+  What should you recommend?
 
 **Options:**
+
 - object detection in Azure AI Custom Vision
 - **Azure AI Vision Spatial Analysis** (Correct)
 - Azure AI Vision Image Analysis
@@ -1977,6 +2153,7 @@ You need to identify files that contain specific phrases. The solution must use 
 Which Azure OpenAI model should you use?
 
 **Options:**
+
 - GPT-3.5 Turbo
 - **text-embedding-ada-002** (Correct)
 - GPT-4-32k
@@ -1992,6 +2169,7 @@ You have the files shown in the table (JPG, PDF, PNG, XLSX; some password-locked
 You need to train a custom extraction model by using Aldoc1. Which files can you upload to Document Intelligence Studio?
 
 **Options:**
+
 - File2, and File5 only
 - File2, File4, and File5 only
 - File1, File2, File3, File4, and File5
@@ -2007,6 +2185,7 @@ You need to ensure that the chatbot can classify user input into separate catego
 Which service should you use to classify the input?
 
 **Options:**
+
 - Azure OpenAI text summarization
 - Azure AI Language custom text classification
 - Azure AI Language custom named entity recognition (NER)
@@ -2020,13 +2199,15 @@ Which service should you use to classify the input?
 You have a factory that produces food products.
 You need to build a monitoring solution for staff compliance with personal protective equipment (PPE) requirements.
 Solution requirements:
+
 - Identify staff who have removed masks or safety glasses
 - Perform a compliance check every 15 minutes
 - Minimize development effort
 - Minimize costs
-Which service should you use?
+  Which service should you use?
 
 **Options:**
+
 - Face
 - **Azure AI Vision** (Correct)
 - Azure Video Analyzer for Media (formerly Video Indexer)
@@ -2041,6 +2222,7 @@ You need to ensure that User1 can add custom data sources to AI1. The solution m
 Which role should you assign to User1?
 
 **Options:**
+
 - **Cognitive Services OpenAI Contributor** (Correct)
 - Search Index Data Contributor
 - Cognitive Services Contributor
@@ -2057,6 +2239,7 @@ You need to add a custom skill to App1 to ensure that the app can recognize and 
 What should you include in the solution?
 
 **Options:**
+
 - Azure AI Immersive Reader
 - Azure OpenAI
 - **Azure AI Document Intelligence** (Correct)
